@@ -26,3 +26,6 @@ The following table highlights the effect of varying the number of captions on G
 The following table evaluates the impact of different prompt designs. In summary, captions lead to more accurate knowledge retrieval, QA pairs enhance reasoning patterns, and instructions align the prompt with the task objective. This cohesive design enables the model to tackle diverse and complex questions effectively, ensuring comprehensive contextual understanding and strong overall performance.
 
 <img src="./Imgs/table5.png" alt="drawing" width="350" height="200"/>
+
+## Qualitative results
+
