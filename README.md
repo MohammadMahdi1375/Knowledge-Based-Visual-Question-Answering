@@ -9,4 +9,8 @@ Knowledge-Based Visual Question Answering (KB-VQA) methods focus on tasks that d
 ## Results
 This table compares our GC-KBVQA, categorized as zero-shot evaluation without end-to-end training, with competing approaches across three VQA paradigms for SOTA models. The first is zero-shot evaluation without task-specific fine-tuning, leveraging the inherent generalization of pre-trained models. The second involves zero-shot evaluation with end-to-end fine-tuning on task-specific data to improve performance. The third is few-shot evaluation, which uses a small amount of labeled data to refine predictions by combining pre-trained knowledge with limited supervision.
 
-<img src="./Imgs/table1.png" alt="drawing" width="500" height="600"/>
+<img src="./Imgs/table1.png" alt="drawing" width="600" height="600"/>
+
+The following table presents the impact of different LLMs and overall framework sizes, on performance. This demonstrates that our GC‑KBVQA framework is truly “plug‑and‑play”: one can simply substitute Llama‑3‑8B for another model of similar scale (e.g., Mistral‑7B) using identical configurations and prompts—without any additional prompt tuning—and still achieve competitive results.
+
+<img src="./Imgs/table2.png" alt="drawing" width="600" height="600"/>
