@@ -31,3 +31,9 @@ The following table evaluates the impact of different prompt designs. In summary
 A diverse range of samples and our proposed GC-KBVQA-generated outputs.
 
 <img src="./Imgs/sample1.png" alt="drawing" width="800" height="300"/>
+<img src="./Imgs/sample2.png" alt="drawing" width="800" height="300"/>
+<img src="./Imgs/sample3.png" alt="drawing" width="800" height="300"/>
+<img src="./Imgs/sample4.png" alt="drawing" width="800" height="300"/>
+<img src="./Imgs/sample5.png" alt="drawing" width="800" height="300"/>
+<img src="./Imgs/sample6.png" alt="drawing" width="800" height="300"/>
+<img src="./Imgs/sample7.png" alt="drawing" width="800" height="300"/>
