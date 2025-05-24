@@ -14,3 +14,15 @@ This table compares our GC-KBVQA, categorized as zero-shot evaluation without en
 The following table presents the impact of different LLMs and overall framework sizes, on performance. This demonstrates that our GC‑KBVQA framework is truly “plug‑and‑play”: one can simply substitute Llama‑3‑8B for another model of similar scale (e.g., Mistral‑7B) using identical configurations and prompts—without any additional prompt tuning—and still achieve competitive results.
 
 <img src="./Imgs/table2.png" alt="drawing" width="350" height="200"/>
+
+The following table evaluates the performance of caption generation strategies, comparing the use of LLaVA and InstructBLIP individually against their combined use. The use of two caption generators mitigates the limitations of incomplete or narrow captions, enhancing generalization across datasets and question formats. Although this approach incurs slightly higher computational costs, it yields substantial accuracy gains, justifying the trade-off.
+
+<img src="./Imgs/table3.png" alt="drawing" width="350" height="200"/>
+
+The following table highlights the effect of varying the number of captions on GC-KBVQA performance. The use of the top three captions yielded the best results in all datasets. This configuration effectively balances reducing redundancy and maximizing contextual utility for the LLM. However, adding a fourth or fifth caption seems to increase the likelihood of irrelevant or less question-focused content, which can dilute overall information quality and impede the LLM’s reasoning process.
+
+<img src="./Imgs/table4.png" alt="drawing" width="350" height="200"/>
+
+The following table evaluates the impact of different prompt designs. In summary, captions lead to more accurate knowledge retrieval, QA pairs enhance reasoning patterns, and instructions align the prompt with the task objective. This cohesive design enables the model to tackle diverse and complex questions effectively, ensuring comprehensive contextual understanding and strong overall performance.
+
+<img src="./Imgs/table5.png" alt="drawing" width="350" height="200"/>
