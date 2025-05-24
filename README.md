@@ -8,4 +8,5 @@ Knowledge-Based Visual Question Answering (KB-VQA) methods focus on tasks that d
 
 ## Results
 This table compares our GC-KBVQA, categorized as zero-shot evaluation without end-to-end training, with competing approaches across three VQA paradigms for SOTA models. The first is zero-shot evaluation without task-specific fine-tuning, leveraging the inherent generalization of pre-trained models. The second involves zero-shot evaluation with end-to-end fine-tuning on task-specific data to improve performance. The third is few-shot evaluation, which uses a small amount of labeled data to refine predictions by combining pre-trained knowledge with limited supervision.
-<img src="./Imgs/table1.png" alt="drawing" width="400" height="200"/>
+
+<img src="./Imgs/table1.png" alt="drawing" width="400" height="600"/>
