@@ -13,4 +13,4 @@ This table compares our GC-KBVQA, categorized as zero-shot evaluation without en
 
 The following table presents the impact of different LLMs and overall framework sizes, on performance. This demonstrates that our GC‑KBVQA framework is truly “plug‑and‑play”: one can simply substitute Llama‑3‑8B for another model of similar scale (e.g., Mistral‑7B) using identical configurations and prompts—without any additional prompt tuning—and still achieve competitive results.
 
-<img src="./Imgs/table2.png" alt="drawing" width="600" height="600"/>
+<img src="./Imgs/table2.png" alt="drawing" width="250" height="150"/>
